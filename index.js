@@ -115,7 +115,7 @@ function t_initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("Dec 14, 2023 12:00:00");
-var turkey_deadline = new Date("Jun 19, 2023 12:00:00");
+var deadline = new Date("May 21, 2023 12:00:00");
+// var turkey_deadline = new Date("Jun 19, 2023 12:00:00");
 initializeClock('clockdiv', deadline);
-t_initializeClock('t_clockdiv', turkey_deadline);
+
